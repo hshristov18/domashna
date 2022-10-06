@@ -1,0 +1,130 @@
+import java.util.Scanner;
+
+public class Domashna {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Arithmetic Calculations - INT:");
+        //Vuvejdane na stoinosti
+        System.out.print("a=");
+
+        int chisloedno = sc.nextInt();
+        System.out.print("b=");
+
+        //Umnojenie i delenie
+        int chislodve = sc.nextInt();
+        int intanswrRes = chisloedno*chislodve;
+        int intdivRes = chisloedno/chislodve;
+
+        System.out.print("Answer=");
+        System.out.println(intanswrRes);
+
+        System.out.print("Division=");
+        System.out.println(intdivRes);
+
+
+        System.out.println("Arithmetic Calculations - BYTE:");
+
+        //Vuvejdane na stoinosti
+        System.out.print("a=");
+
+        byte chislotri = sc.nextByte();
+        System.out.print("b=");
+        byte chislochetiri = sc.nextByte();
+
+        //Aritmetichni smetki
+        int byteanswrRes = chislotri/chislochetiri;
+        int bytedivRes = chislotri/chislochetiri;
+
+        //Reshenie na smetkite
+        System.out.print("Answer=");
+        System.out.println(byteanswrRes);
+
+        System.out.print("Division=");
+        System.out.println(bytedivRes);
+
+
+        System.out.println("Arithmetic Calculations - SHORT:");
+        //Vuvejdane na stoinosti
+        System.out.print("a=");
+        short chislopet = sc.nextShort();
+
+        System.out.print("b=");
+        short chisloshes = sc.nextShort();
+
+        //Aritmetichni smetki
+        int shortanswrRes = chislopet/chisloshes;
+        int shortdivRes = chislopet/chisloshes;
+
+        //Reshenie na smetkite
+        System.out.print("Answer=");
+        System.out.println(shortanswrRes);
+
+        System.out.print("Division=");
+        System.out.println(shortdivRes);
+
+
+        System.out.println("Arithmetic Calculations - LONG :");
+
+        // Vuvejdane na stoinosti
+        System.out.print("a=");
+
+        long chislosedem = sc.nextLong();
+        System.out.print("b=");
+        long chisloosem = sc.nextLong();
+
+        //Aritmetichni smetki
+
+        long longanswrRes = chislosedem/chisloosem;
+        long longdivRes = chislosedem/chisloosem;
+
+        //Otgovor na smetkite
+        System.out.print("Answer=");
+        System.out.println(longanswrRes);
+
+        System.out.print("Division=");
+        System.out.println(longdivRes);
+
+
+        System.out.println("Arithmetic Calculations - FLOAT:");
+
+        //Vuvejdane na stoinosti
+        System.out.print("a=");
+
+        float chislodevet = sc.nextFloat();
+        System.out.print("b=");
+
+        float chislodeset = sc.nextFloat();
+        //Aritmetichni smetki
+        float floatanswrRes = chislodevet*chislodeset;
+        float floatdivRes = chislodevet/chislodeset;
+
+        System.out.print("Answer=");
+        System.out.println(floatanswrRes);
+
+        System.out.print("Division=");
+        System.out.println(floatdivRes);
+
+        System.out.println("Arithmetic Calculations - DOUBLE:");
+        //Vuvejdane na stoinosti
+        System.out.print("a=");
+
+        double chislo11 = sc.nextDouble();
+        System.out.print("b=");
+
+        double chislo12 = sc.nextDouble();
+
+        //Reshenie na smetki
+        double doubleanswrRes = chislo11*chislo12;
+        double doubledivRes = chislo11/chislo12;
+
+        //Reshenie na smetki
+        System.out.print("Answer=");
+
+        System.out.println(doubleanswrRes);
+        System.out.print("Division=");
+
+        System.out.println(doubledivRes);
+    }
+}
